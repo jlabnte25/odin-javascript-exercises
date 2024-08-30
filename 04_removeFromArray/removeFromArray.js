@@ -1,5 +1,11 @@
-const removeFromArray = function() {
-};
 
-// Do not edit below this line
+
+const removeFromArray = function(a, ...userInput) {;   
+    let filteredArray = a.filter(a => !userInput.includes(a));
+    return filteredArray;
+    }
+
 module.exports = removeFromArray;
+
+
+//npm test FromArray.spec.js
