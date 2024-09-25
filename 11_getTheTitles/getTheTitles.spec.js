@@ -16,3 +16,5 @@ describe('getTheTitles', () => {
     expect(getTheTitles(books)).toEqual(['Book','Book2']);
   });
 });
+
+//npm test getTheTitles.spec.js
